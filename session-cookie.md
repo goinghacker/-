@@ -1,3 +1,4 @@
+
 ![cookie](https://github.com/goinghacker/images/blob/master/2.jpg)  
 一. session和cookie区别?
     
