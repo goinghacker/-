@@ -1,3 +1,4 @@
+![cookie](https://github.com/goinghacker/images/blob/master/2.jpg)  
 一. session和cookie区别?
     
     1.存储位置:cookie存储在客户端,session一般存储在服务器或数据库中;
@@ -6,9 +7,8 @@
     4.网络传输:cookie可以通过网络实现客户端和服务器端的传输，而session存储在服务器端，无需传输。
     注意:cookie生成是在服务器端生成的,服务器端向客户端发送Cookie是通过HTTP响应报文实现的;
     
-![image](https://github.com/goinghacker/images/blob/master/2.jpg)
-![image](https://github.com/AngelSXD/sxd_first_repository/blob/master/images/20160615165142.png)
-    
+
+ 
 二. 禁用cookie后session还能使用吗？
 
     可以,HTTP协议是无状态的，想要跟踪客户的状态，会话机制来解决。
