@@ -5,7 +5,7 @@
     3.生命周期:cookie的失效时间是累计的,session是间隔的
     4.网络传输:cookie可以通过网络实现客户端和服务器端的传输，而session存储在服务器端，无需传输。
     注意:cookie生成是在服务器端生成的,服务器端向客户端发送Cookie是通过HTTP响应报文实现的;
-    
+    https://github.com/goinghacker/images/blob/master/2.jpg
     
 二. 禁用cookie后session还能使用吗？
 
