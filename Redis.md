@@ -30,3 +30,10 @@
 	如果在setnx之后执行expire之前进程意外crash或者要重启维护了，那会怎么样？
 	set指令有非常复杂的参数，这个应该是可以同时把setnx和expire合成一条指令来用的！
 	
+六. redis 常用命令？
+        string: get,set,del,incr,append（常规key-value缓存应用）
+	list  : rpush,lpush,rpop,lpop,lrange,lindex,ltrim（消息队列系统）
+	set   ：sadd，srem，scard，spop；（交集，并集，差集：(Set)）
+	hash  ：hmget，hmset,hmdel,hmlen,hexists（存储部分变更数据，如用户信息等。）
+	zset  :zadd key score member,zcard,zcount key min max,zrank key member,zrange key start stop,zscore key member
+	       (有序集合比set增加了权重值可以用于排行榜之类的)
