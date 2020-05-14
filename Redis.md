@@ -37,3 +37,4 @@
 	hash  ：hmget，hmset,hmdel,hmlen,hexists（存储部分变更数据，如用户信息等。）
 	zset  :zadd key score member,zcard,zcount key min max,zrank key member,zrange key start stop,zscore key member
 	       (有序集合比set增加了权重值可以用于排行榜之类的)
+	       
